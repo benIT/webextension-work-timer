@@ -1,0 +1,16 @@
+{
+    "name": "WorkTimer",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "My work timer",
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": true
+    },
+    "permissions": [
+        "storage", "notifications"
+    ]
+}
